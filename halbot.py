@@ -3,7 +3,7 @@ import openai
 
 
 token = 'token'
-openai.api_key = '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'
+openai.api_key = 'openai-token'
 
 
 intents = discord.Intents.default()
