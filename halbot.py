@@ -31,6 +31,18 @@ async def on_message(message):
             )
             await message.channel.send(responce["choices"][0]["text"])
        elif prompt[0:4] == "!rem":
-            pass
+            y = prompt[4:].split()
+          
+          temp = int(y[0])
+          if y[1].lower() == 'd':
+             y[0] = temp*86400
+          elif y[1].lower() == "h":
+             y[0] = temp*3600
+          elif y[1].lower() == 'm':
+             y[0] = temp*60
+          p = " ".join(y[2:])
+          time.sleep(int(y[0]))
+          await message.reply(p,mention_author=True)
+         
 
 client.run(token)
