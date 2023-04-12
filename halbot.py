@@ -2,7 +2,7 @@ import discord
 import openai
 
 
-token = 'MTA5NTM0MjIxMjYwNDI0ODA5NA.GSmVKZ.aSscPXclQoPKSi1hN_4EXVxW__7oKmzHsOTTjI'
+token = 'token'
 openai.api_key = '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'
 
 
