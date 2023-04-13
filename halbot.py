@@ -30,8 +30,10 @@ async def on_message(message):
                   temperature = 0.7
             )
             await message.channel.send(responce["choices"][0]["text"])
+       elif prompt == "!help":
+             await message.channel.send("1) asking a question to ai use ' !ai ' followed by the question you want to ask\n2) for setting up a reminder use ' !rem ' followed by the amount and unit of time(d-days,h-hours,m-minute,s-seconds) and what you want to be reminded of")
        elif prompt[0:4] == "!rem":
-            y = prompt[4:].split()
+          y = prompt[4:].split()
           
           temp = int(y[0])
           if y[1].lower() == 'd':
