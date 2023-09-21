@@ -1,6 +1,6 @@
 import discord
 import openai
-
+import time
 
 token = 'token'
 openai.api_key = 'openai-token'
