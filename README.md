@@ -30,7 +30,7 @@ To access information about bot commands, use the command `!help`. This command 
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/discord-ai-bot.git
+git clone https://github.com/vi2hnu/HAL-9000.git
 
 
 2. Obtain API Tokens:
