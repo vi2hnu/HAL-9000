@@ -1,6 +1,6 @@
 # HALL-9000 AI Assistant Bot
 
-This Discord bot utilizes OpenAI's GPT-3 model for AI-based interactions and supports setting reminders. 
+This Discord bot utilizes OpenAI's gpt-3.5-turbo-0125 model for AI-based interactions and supports setting reminders. 
 
 ## Features
 
@@ -43,10 +43,10 @@ git clone https://github.com/your-username/discord-ai-bot.git
    Replace the placeholder tokens in the script with your actual tokens:
 
    ```python
-   token = 'your-discord-bot-token'
-   openai.api_key = 'your-openai-api-key'
+   token = 'your_discord_bot_token'
+   api_key = 'your_openai_api_key'
 
 
 
-![image](https://github.com/vi2hnu/HAL-9000/assets/130527742/d898d902-d2ad-4960-9cae-196b7bc05a1f)
+![image](https://github.com/vi2hnu/HAL_9000/assets/130527742/d898d902-d2ad-4960-9cae-196b7bc05a1f)
 
