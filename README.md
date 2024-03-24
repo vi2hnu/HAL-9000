@@ -46,3 +46,7 @@ git clone https://github.com/your-username/discord-ai-bot.git
    token = 'your-discord-bot-token'
    openai.api_key = 'your-openai-api-key'
 
+
+
+![image](https://github.com/vi2hnu/HAL-9000/assets/130527742/d898d902-d2ad-4960-9cae-196b7bc05a1f)
+
